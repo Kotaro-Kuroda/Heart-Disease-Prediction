@@ -16,9 +16,9 @@
 			"--ignore=E501,E302"
 		],
 		"git.autofetch": true,
-		"python.defaultInterpreterPath": "/home/kotarokuroda/.local/share/virtualenvs/Heart-Disease-Prediction-CbFaEqI4/bin/python",
+		"python.defaultInterpreterPath": "/home/f1004/.local/share/virtualenvs/Heart-Disease-Prediction-vJgrHd6L/bin/python",
 		"python.analysis.extraPaths": [
-			"/home/kotarokuroda/.local/share/virtualenvs/Heart-Disease-Prediction-CbFaEqI4/lib/python3.10/site-packages/"
+			"/home/f1004/.local/share/virtualenvs/Heart-Disease-Prediction-vJgrHd6L/lib/python3.10/site-packages/"
 		],
 	}
 }

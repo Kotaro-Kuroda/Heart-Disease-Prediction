@@ -35,7 +35,7 @@ def main():
     csv_path = './heart.csv'
     x_train, x_test, y_train, y_test = read_csv.read_csv(csv_path)
     model = NeuralNetwork(input_features=x_train.shape[1], num_classes=2)
-    model.load_state_dict(torch.load('/home/kotarokuroda/Documents/Heart-Disease-Prediction/models/model_14.pt'))
+    model.load_state_dict(torch.load('./models/model_14.pt'))
     model.to(device)
     confusion_matrix = test(model, x_test, y_test)
     acc = np.sum(np.diag(confusion_matrix)) / np.sum(confusion_matrix)

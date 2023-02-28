@@ -6,13 +6,14 @@ name = "pypi"
 [packages]
 pandas = "*"
 scikit-learn = "*"
-torch = "*"
-torchvision = "*"
-torchaudio = "*"
 tqdm = "*"
 tensorboard = "*"
 seaborn = "*"
 matplotlib = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+jupyter = "*"
 
 [dev-packages]
 ipdb = "*"
